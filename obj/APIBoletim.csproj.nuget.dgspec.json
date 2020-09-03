@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\source\\repos\\APIBoletim\\APIBoletim.csproj": {}
+    "C:\\Users\\Pichau\\Documents\\APIBoletim\\APIBoletim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\source\\repos\\APIBoletim\\APIBoletim.csproj": {
+    "C:\\Users\\Pichau\\Documents\\APIBoletim\\APIBoletim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\APIBoletim\\APIBoletim.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Documents\\APIBoletim\\APIBoletim.csproj",
         "projectName": "APIBoletim",
-        "projectPath": "C:\\Users\\Pichau\\source\\repos\\APIBoletim\\APIBoletim.csproj",
+        "projectPath": "C:\\Users\\Pichau\\Documents\\APIBoletim\\APIBoletim.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\source\\repos\\APIBoletim\\obj\\",
+        "outputPath": "C:\\Users\\Pichau\\Documents\\APIBoletim\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
